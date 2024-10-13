@@ -15,7 +15,7 @@ const Events = () => {
         </div>
         <div className='md:flex mt-9 xl:-ml-20  gap-6'>
         {Peoples.map((item,index)=>
-            <div key={index} className='px-4 mt-3  xl:w-[480px] xl:h-[562x] w-[300px] mx-auto xl:mx-0 xl:border-2 rounded-2xl xl:py-8 '>
+            <div key={index} className='px-4 mt-3  xl:w-[400px] xl:h-[562x] w-[300px] mx-auto xl:mx-0 xl:border-2 rounded-2xl xl:py-8 '>
                 <div className='mt-8'>
                 <img src={people1} alt="" className='rounded-xl' />
                 <p className='text-orange-500 mt-2'>Hosted by : Lorem ipsum dolor </p>
