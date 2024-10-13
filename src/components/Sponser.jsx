@@ -1,5 +1,5 @@
 import React from 'react'
-import Jiggle from '../assets/img/Jiggle.svg'
+import Jiggle from '../assets/img/jiggle.svg'
 import symetric from '../assets/img/symetric.svg'
 import Rese from '../assets/img/rese.svg'
 import Wish from '../assets/img/wish.svg'
