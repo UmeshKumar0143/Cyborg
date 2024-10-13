@@ -9,9 +9,9 @@ const Img = [{title:"VIP Group",src:vip},{title:"Active Group",src:active},{titl
 const Groups = () => {
   return (
         <div className='mt-28 container'>
-            <h1 className={`xl:text-5xl text-center xl:text-left  text-3xl font-semibold`}>Our <span className='text-orange-400'>Groups</span></h1>
-        <div className={`flex mt-6  ml-10 items-center flex-wrap gap-6`}>
-            <div className='flex flex-wrap xl:ml-28 mt-4 gap-4'>
+            <h1 className={`xl:text-5xl text-center xl:text-left xl:ml-32 text-3xl font-semibold`}>Our <span className='text-orange-400'>Groups</span></h1>
+        <div className={`flex mt-6  ml-10 items-center xl:ml-32 flex-wrap gap-6`}>
+            <div className='flex flex-wrap mt-4 gap-4'>
             {Img.map((item,index)=>{
             return <div key={index} className='rounded-xl border-2 w-[276px] h-[252px] flex flex-col items-center justify-center gap-3 '>
             <img src={item.src} alt="" className={`w-60 object-cover object-center  ${index===1 || index==2? "-mb-16 ":"mt-0"} ${index==3?"-mb-16":"mt-2"}`}  />

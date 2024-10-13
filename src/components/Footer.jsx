@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             </div>
        </div>
-       <div className='flex  justify-center gap-10 mt-10'>
+       <div className='flex justify-center gap-10 mt-10'>
        <div>
         <h5 className='text-white text-xl font-bold'>Discover</h5>
         <div className='flex flex-col gap-2 mt-2'>
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
        </div>
     </div> 
-        <div className=' border-t md:flex  container md:items-center md:justify-between border-white px-2  mt-10'>
+        <div className=' border-t md:flex md:items-center md:justify-between border-white px-2  mt-10'>
                 <p className='text-sm mt-3 text-center'>Copyright © 2024 <span className='text-[#00AAA4]'>CyberAgora</span>. All rights reserved.</p>
                 <div className='flex gap-2 md:mt-2 justify-center'>
                     {["Cookies","Terms & Conditions","Privacy Policy"].map((item,index)=>{
