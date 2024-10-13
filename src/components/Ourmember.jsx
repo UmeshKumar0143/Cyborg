@@ -11,11 +11,11 @@ const members = [{url:member1,name: "Robert Brown"},
 ]
 const Ourmember = () => {
   return (
-    <div className={`container mt-10 `}>
+    <div className={` mt-10 `}>
         <div>
-         <h1 className={`xl:text-5xl text-center xl:text-left xl:ml-32 text-3xl  font-semibold`}>Our <span className='text-orange-400'>Members</span></h1>
+         <h1 className={`xl:text-5xl text-center xl:text-left xl:ml-44 text-3xl  font-semibold`}>Our <span className='text-orange-400'>Members</span></h1>
          </div>
-         <div className='xl:ml-32'>
+         <div className='max-w-5xl mx-auto'>
          <div className='flex gap-2  mt-8 ml-10'>
         {members.map((item,index)=> <div key={index} className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg "
           style={{ backgroundImage: `url(${item.url})`,
