@@ -23,7 +23,7 @@ const Navbar = ({ toggleDarkMode, darkmode}) => {
           <div className="relative flex items-center border border-black rounded-full">
            
           
-            <CiSearch className={`text-2xl absolute top-3`} />
+            <CiSearch className={`text-2xl absolute top-3 left-3`} />
             <input
               className={`px-10 py-2 text-xl ${darkmode ? "bg-black" : "bg-white"} border-none outline-none rounded-l-full w-[200px] lg:w-[300px] `}
               type="text"
