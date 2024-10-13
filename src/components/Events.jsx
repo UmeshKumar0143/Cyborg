@@ -9,11 +9,11 @@ const Peoples = [people1,people2,people3];
 const Events = () => {
   return (
     <div className='mt-32   w-full xl:ml-32'>
-        <div className='xl:flex xl:justify-between'>
+        <div className='xl:flex  gap-[40vw]'>
         <h1 className='xl:text-5xl text-3xl text-center xl:text-left   font-bold'>Upcoming <span className='text-orange-400'>Events</span></h1>
-        <button className="px-4 lg:px-10 py-2 hidden md:inline  rounded-full border border-zinc-400 font-medium text-sm  xl:text-xl">See All Events</button>
+        <button className="px-4 lg:px-10 py-2 hidden md:inline   rounded-full border border-zinc-400 font-medium text-sm  xl:text-xl">See All Events</button>
         </div>
-        <div className='md:flex mt-9  gap-6'>
+        <div className='md:flex mt-9 xl:-ml-20  gap-6'>
         {Peoples.map((item,index)=>
             <div key={index} className='px-4 mt-3  xl:w-[480px] xl:h-[562x] w-[300px] mx-auto xl:mx-0 xl:border-2 rounded-2xl xl:py-8 '>
                 <div className='mt-8'>
