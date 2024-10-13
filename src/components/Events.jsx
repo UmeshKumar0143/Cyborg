@@ -8,7 +8,7 @@ const Peoples = [people1,people2,people3];
 
 const Events = () => {
   return (
-    <div className='mt-32   w-full xl:px-32'>
+    <div className='mt-32   w-full xl:ml-32'>
         <div className='xl:flex xl:justify-between'>
         <h1 className='xl:text-5xl text-3xl text-center xl:text-left   font-bold'>Upcoming <span className='text-orange-400'>Events</span></h1>
         <button className="px-4 lg:px-10 py-2 hidden md:inline  rounded-full border border-zinc-400 font-medium text-sm  xl:text-xl">See All Events</button>
