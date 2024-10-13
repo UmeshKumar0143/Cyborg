@@ -11,7 +11,7 @@ const Sponser = () => {
   return (
     <div className={`-hidden mt-16`}>
         <h5 className='text-center md:text-2xl text-zinc-400 text-xl '>Sponsered By </h5>
-        <div className='mt-8 flex md:ml-72 -ml-52 gap-4  md:gap-16'>
+        <div className='mt-8 flex xl:ml-52 -ml-52 gap-4  md:gap-16'>
             {Sponsers.map((item,index)=>
            <img  key={index}src={item} alt="" className='w-44 xl:w-48' />
             )}
