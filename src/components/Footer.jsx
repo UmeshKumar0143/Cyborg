@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/img/Logow.svg'
+import Logo from '../assets/img/logow.svg'
 import { IoLocateSharp, IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter } from 'react-icons/io5'
 import { FaEnvelope, FaEnvelopeOpen } from 'react-icons/fa'
 import { BsFillTelephoneOutboundFill } from 'react-icons/bs'
