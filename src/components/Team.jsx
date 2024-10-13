@@ -17,7 +17,7 @@ const Team = () => {
          <h1 className={`xl:text-5xl xl:ml-32 text-center xl:text-left text-3xl font-semibold`}>Our <span className='text-orange-400'>Team</span></h1>
          </div>
          <div className='flex xl:ml-32 flex-wrap gap-4'>
-       {Teams.map((item,index)=>  <div className='w-[276px] mt-10 ml-10 h-[355px] flex flex-col justify-center items-center border-2 rounded-xl'>
+       {Teams.map((item,index)=>  <div key={index} className='w-[276px] mt-10 ml-10 h-[355px] flex flex-col justify-center items-center border-2 rounded-xl'>
             <div className=' rounded-full'>
                 <img src={item.src} alt="" className='w-[154px] rounded-full object-cover object-center h-[154px]' />
             </div>

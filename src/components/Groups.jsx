@@ -13,7 +13,7 @@ const Groups = () => {
         <div className={`flex mt-6  ml-10 items-center xl:ml-32 flex-wrap gap-6`}>
             <div className='flex flex-wrap mt-4 gap-4'>
             {Img.map((item,index)=>{
-            return <div className='rounded-xl border-2 w-[276px] h-[252px] flex flex-col items-center justify-center gap-3 '>
+            return <div key={index} className='rounded-xl border-2 w-[276px] h-[252px] flex flex-col items-center justify-center gap-3 '>
             <img src={item.src} alt="" className={`w-60 object-cover object-center  ${index===1 || index==2? "-mb-16 ":"mt-0"} ${index==3?"-mb-16":"mt-2"}`}  />
             <h1 className={`text-center text-2xl ${index===1 || index==2? "mt-32":"mt-2"} ${index==3?"-mt-32": "mt-16"} font-bold`}>{item.title}</h1>
             </div>

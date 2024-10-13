@@ -17,7 +17,7 @@ const Ourmember = () => {
          </div>
          <div className='xl:ml-32'>
          <div className='flex gap-2  mt-8 ml-10'>
-        {members.map((item,index)=> <div className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg "
+        {members.map((item,index)=> <div key={index} className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg "
           style={{ backgroundImage: `url(${item.url})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -27,7 +27,7 @@ const Ourmember = () => {
          </div>)}
          </div>
          <div className='flex gap-2 mt-8 ml-10'>
-        {members.map((item,index)=> <div className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg"
+        {members.map((item,index)=> <div key={index} className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg"
           style={{ backgroundImage: `url(${item.url})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -37,7 +37,7 @@ const Ourmember = () => {
          </div>)}
          </div>
          <div className='flex gap-2 mt-8 ml-10'>
-        {members.map((item,index)=> <div className="w-[187px] border h-[120px] flex justify-center items-end rounded-lg"
+        {members.map((item,index)=> <div key={index} className="w-[187px] border h-[120px] flex justify-center items-end rounded-lg"
           style={{ backgroundImage: `url(${item.url})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -47,7 +47,7 @@ const Ourmember = () => {
          </div>)}
          </div>
          <div className='flex gap-2 mt-8 ml-10'>
-        {members.map((item,index)=> <div className="w-[187px] border h-[120px] flex justify-center items-end rounded-lg"
+        {members.map((item,index)=> <div key={index} className="w-[187px] border h-[120px] flex justify-center items-end rounded-lg"
           style={{ backgroundImage: `url(${item.url})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",

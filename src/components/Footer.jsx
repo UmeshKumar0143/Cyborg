@@ -10,7 +10,7 @@ const Footer = () => {
         <IoLogoFacebook/>,
         <IoLogoTwitter/>]
   return (
-    <div className='bg-black text-white  md:h-[607px] py-48 md:py-60 -mt-[150px]'>
+    <div className='bg-black text-white h-[970px]  md:h-[607px] py-48 md:py-60 -mt-[150px]'>
     <div className= 'md:flex md:justify-around'>
        <div>
         <div className='flex md:ml-10 flex-col items-center justify-center md:items-start md:justify-start '>
@@ -19,7 +19,7 @@ const Footer = () => {
             <div>
                 <div className='flex gap-2 mt-3 md:mt-6 md:ml-3'>
                {socialIcons.map((item,index)=>{
-                return <div className={`h-[33px] w-[33px] ${index==0?"bg-orange-500": "bg-white"} rounded-full flex items-center justify-center`}>
+                return <div key={index} className={`h-[33px] w-[33px] ${index==0?"bg-orange-500": "bg-white"} rounded-full flex items-center justify-center`}>
                     <div >
                         <span className={`text-xl ${index!=0 && 'text-orange-500'}`}>{item}</span>
                     </div>
