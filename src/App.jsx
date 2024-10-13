@@ -6,7 +6,7 @@ import Events from './components/Events'
 import Groups from './components/Groups'
 import Team from './components/Team'
 import Ourmember from './components/Ourmember'
-import Joinus from './components/joinus'
+import Joinus from './components/Joinus'
 import Footer from './components/Footer'
 
 const App = () => {
