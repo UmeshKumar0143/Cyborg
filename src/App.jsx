@@ -31,7 +31,7 @@ const App = () => {
     document.documentElement.setAttribute('dir', rtlMode ? 'rtl' : 'ltr');
   }, [language]);
   return (
-    <div className={`${darkmode? 'dark': ""} ${rtlMode ? 'rtl' : 'ltr'}`}>
+    <div className={`${darkmode? 'dark': ""} ${rtlMode ? 'rtl' : 'ltr'} overflow-hidden`}>
       <div className='bg-white dark:bg-black text-black dark:text-white min-h-screen'>
       <Navbar toggleDarkMode = {toggleDarkMode} darkmode = {darkmode} 
           changeLanguage={changeLanguage} language={language}/>
