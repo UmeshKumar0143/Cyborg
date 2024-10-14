@@ -9,7 +9,7 @@ const Img = [{title:"VIP Group",src:vip},{title:"Active Group",src:active},{titl
 const Groups = () => {
   return (
         <div className='mt-28 xl:ml-32'>
-            <h1 className={`xl:text-5xl text-center xl:text-left xl:mltext-3xl font-semibold`}>Our <span className='text-orange-400'>Groups</span></h1>
+            <h1 className={`xl:text-5xl text-center xl:text-left text-3xl font-semibold`}>Our <span className='text-orange-400'>Groups</span></h1>
         <div className={`flex mt-6  ml-10 items-center xl:ml-32 flex-wrap gap-6`}>
             <div className='flex flex-wrap mt-4 gap-4'>
             {Img.map((item,index)=>{
