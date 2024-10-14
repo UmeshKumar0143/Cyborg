@@ -7,7 +7,38 @@ import member4 from '../assets/img/member4.png'
 const members = [{url:member1,name: "Robert Brown"},
                  {url:member2,name: "Leslie Livingston"},    
                  {url:member3,name: "Joseph McFall"},    
-                 {url:member4,name: "Helene Engels"},    
+                 {url:member4,name: "Helene Engels"},  
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"}, 
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"}, 
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"},
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"}, 
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"}, 
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"}, 
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},    
+                 {url:member4,name: "Helene Engels"}, 
+                 {url:member1,name: "Robert Brown"},
+                 {url:member2,name: "Leslie Livingston"},    
+                 {url:member3,name: "Joseph McFall"},       
 ]
 const Ourmember = () => {
   return (
@@ -15,45 +46,15 @@ const Ourmember = () => {
         <div>
          <h1 className={`xl:text-5xl text-center xl:text-left xl:ml-32 text-3xl  font-semibold`}>Our <span className='text-orange-400'>Members</span></h1>
          </div>
-         <div className='container ml-96'>
-         <div className='flex gap-2  mt-8 ml-10'>
-        {members.map((item,index)=> <div key={index} className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg "
+         <div className='container xl:ml-64'>
+         <div className='flex gap-3 flex-wrap  mt-8 ml-10'>
+        {members.map((item,index)=> <div key={index} className="xl:w-[187px] w-[80px] h-[80px] border xl:h-[120px] flex justify-center items-end rounded-lg "
           style={{ backgroundImage: `url(${item.url})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
             backgroundSize : "cover"
           }} >
-            <span className='text-white text-center font-bold mb-5'>{item.name}</span>
-         </div>)}
-         </div>
-         <div className='flex gap-2 mt-8 ml-10'>
-        {members.map((item,index)=> <div key={index} className="w-[187px]  border h-[120px] flex justify-center items-end rounded-lg"
-          style={{ backgroundImage: `url(${item.url})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize : "cover"
-          }} >
-            <span className='text-white text-center font-bold mb-5'>{item.name}</span>
-         </div>)}
-         </div>
-         <div className='flex gap-2 mt-8 ml-10'>
-        {members.map((item,index)=> <div key={index} className="w-[187px] border h-[120px] flex justify-center items-end rounded-lg"
-          style={{ backgroundImage: `url(${item.url})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize : "cover"
-          }} >
-            <span className='text-white text-center font-bold mb-5'>{item.name}</span>
-         </div>)}
-         </div>
-         <div className='flex gap-2 mt-8 ml-10'>
-        {members.map((item,index)=> <div key={index} className="w-[187px] border h-[120px] flex justify-center items-end rounded-lg"
-          style={{ backgroundImage: `url(${item.url})`,
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            backgroundSize : "cover"
-          }} >
-            <span className='text-white text-center font-bold mb-5'>{item.name}</span>
+            <span className='text-white text-center text-sm xl:text-base  font-bold mb-5'>{item.name}</span>
          </div>)}
          </div>
          </div>

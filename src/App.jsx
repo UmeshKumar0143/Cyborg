@@ -41,7 +41,7 @@ const App = () => {
       <Groups />
       <Team />
       <Ourmember />
-      <Joinus/>
+      <Joinus  darkmode = {darkmode}/>
       <Footer/>
     </div>
     </div>
