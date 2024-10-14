@@ -46,7 +46,7 @@ const Ourmember = () => {
         <div>
          <h1 className={`xl:text-5xl text-center xl:text-left xl:ml-32 text-3xl  font-semibold`}>Our <span className='text-orange-400'>Members</span></h1>
          </div>
-         <div className='container xl:ml-28'>
+         <div className='container xl:ml-20'>
          <div className='flex gap-3 flex-wrap  mt-8 ml-10'>
         {members.map((item,index)=> <div key={index} className="xl:w-[147px] xl:h-[90px]  w-[80px]  h-[80px] border  flex justify-center items-end rounded-lg "
           style={{ backgroundImage: `url(${item.url})`,
