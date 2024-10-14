@@ -10,7 +10,7 @@ const Joinus = ({darkmode}) => {
             <div className=' md:ml-10 md:mt-20 md:w-[400px] '>
                 <h1 className={`text-3xl md:text-4xl xl:text-left text-center ${darkmode?"text-white":"text-black"} md:text-nowrap font-bold`}>Join <span className='text-orange-400'>Jeddah Bronco Team</span></h1>
                 <p className='text-zinc-400 xl:text-left text-center'>Lorem ipsum dolor sit amet, elit. vitae nisi lobortis condimentum quis eget arcu. Nulla ut turpis. </p>
-                <div className='flex justify-start mt-4'>
+                <div className='flex justify-center xl:justify-start mt-4'>
                 <button className="px-4 lg:px-6 py-2  rounded-full border border-zinc-400 font-bold text-white  bg-[linear-gradient(to_right,#FB913A,#EB5A0D)] text-sm  xl:text-xl">
               Sign up
             </button>
