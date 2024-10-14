@@ -44,8 +44,13 @@ const Navbar = ({ toggleDarkMode, darkmode}) => {
               <IoSearch className="text-xl text-white" />
             </div>
           </div>
+        </div>
 
-          <div className="flex gap-3 items-center">
+          <button onClick={toggleDarkMode} className='md:px-2 ml-10 sm:ml-0 md:py-2 px-1 py-1 rounded-full border-2 border-black'>
+            {darkmode ? <MdOutlineWbSunny className='md:text-xl text-sm font-bold' /> : <FaMoon className='md:text-xl text-sm font-bold' />}
+          </button>
+        <div>
+          <div className=" gap-3 sm:flex hidden items-center">
             <button className="px-4 lg:px-6 py-2 rounded-full border border-zinc-400 font-bold text-sm xl:text-xl">
               Log in
             </button>
@@ -53,12 +58,6 @@ const Navbar = ({ toggleDarkMode, darkmode}) => {
               Sign up
             </button>
           </div>
-        </div>
-
-        <div>
-          <button onClick={toggleDarkMode} className='md:px-2 md:py-2 px-1 py-1 rounded-full border-2 border-black'>
-            {darkmode ? <MdOutlineWbSunny className='md:text-xl text-sm font-bold' /> : <FaMoon className='md:text-xl text-sm font-bold' />}
-          </button>
         </div>
 
 

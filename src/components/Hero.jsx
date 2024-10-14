@@ -4,7 +4,7 @@ import { IoLocationSharp, IoPeopleOutline, IoPersonOutline } from 'react-icons/i
 import { CiLocationOn } from 'react-icons/ci'
 const Hero = ({}) => {
   return (
-    <div className={`container  mt-6 md:mt-10 md:flex md:gap-10 `}>
+    <div className={`container  mt-6 md:mt-10 md:flex md:ml-20 md:gap-10 `}>
             <img src={car} alt="" className='rounded-xl md:w-[718px]' />
             <div className='mt-4'>
                 <h1 className=' text-4xl xl:text-7xl  text-nowrap  tracking-tighter font-bold'>Jeddah Bronco Team</h1>
