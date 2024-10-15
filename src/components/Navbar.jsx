@@ -80,7 +80,7 @@ const Navbar = ({ toggleDarkMode, darkmode}) => {
       </div>
 
       {/* Mobile search bar */}
-      <div className='relative md:hidden w-[350px] flex items-center container ml-[1px] border-2 rounded-full  border-black'>
+      <div className='relative sm:hidden w-[350px] flex items-center container ml-[1px] border-2 rounded-full  border-black'>
         <span><CiSearch className={`text-lg top-3 font-semibold left-3 inline absolute`} /></span>
         <input
           className={`pl-4 pr-0 ${darkmode?"bg-black": "bg-white"} w-[140px] py-2 border-r-0 outline-none  rounded-full rounded-r-none `}
